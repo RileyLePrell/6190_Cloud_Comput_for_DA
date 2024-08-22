@@ -11,73 +11,84 @@ building data architectures with data lakes, containerized applications, distrib
 technologies such as Apache Spark or Kubernetes, machine learning and deep learning model training and
 deployment using scalable/GPU-based infrastructure</div>
 
+
 ## Topics and Tentative Schedule (as of 8/22/2024)
 
 *Note: This schedule is subject to change during the semester. Always refer to the latest class schedule and announcements posted on Canvas.*
 
 <div align="left">
-  
-### January 10th: **Introduction**
-- Overview of course structure, objectives, and expectations.
-- Introduction to foundational concepts in data science.
 
-### January 17th: **Data Preparation and Exploration**
-- Techniques for preparing and cleaning datasets.
-- Exploratory Data Analysis (EDA) methods to understand data distributions and relationships.
+### August 21st: **Intro**
+- Introduction to the course
+- Gitting Started/App Setup
 
-### January 24th: **Information-based Learning**
-- Introduction to decision trees and other information-based learning methods.
-- Discuss entropy, information gain, and their applications in machine learning.
+### August 28th: **Data Platform**
+- Unstructured Data Stores
+  - Blob Storage
+  - Data Lakes
+- **Lab:** Begin Data Platform Lab
 
-### January 31st: **Similarity-based Learning / Project Pitch**
-- Explore k-Nearest Neighbors (k-NN) and other similarity-based approaches.
-- Project pitch presentations and feedback.
+### September 4th: **Data Platform**
+- Structured Data Stores
+  - Databases
+  - Data Warehouses
+  - Azure Synapse and Data Factory
 
-### February 7th: **Error-based Learning**
-- Delve into linear regression, gradient descent, and other error minimization techniques.
-- Understand the concept of loss functions and optimization in learning models.
+### September 11th: **Data Platform / Distributed Computing**
+- Containerization (Docker)
+  - Kubernetes
+- **Lab:** Data Platform Lab Due
+- **Lab:** Begin Distributed Computing Lab
 
-### February 14th: **Error-based Learning Continued**
-- Continuation of error-based learning with more complex models, such as logistic regression.
-- Regularization techniques to prevent overfitting.
+### September 18th: **Distributed Computing**
+- Apache Spark (Databricks)
 
-### February 21st: **Probability-based Learning / Exam Review**
-- Explore Naive Bayes, probabilistic graphical models, and their applications.
-- Review of topics covered in preparation for the midterm exam.
+### September 25th: **Distributed Computing**
+- Other Cluster Technologies
+- **Lab:** Distributed Computing Lab Due
 
-### February 28th: **Midterm Exam**
-- In-class examination covering all topics up to this date.
+### October 2nd: **Review / Machine Learning**
+- Review Data Platform Topics
+- ML Options in the Cloud
+  - Cognitive Services
+  - Intro to Azure Machine Learning
+- **Lab:** Begin Machine Learning Lab
 
-### March 13th: **Exam Recap / Intro to Deep Learning / Project Update**
-- Recap of the midterm exam and clarification of any misunderstandings.
-- Introduction to deep learning, neural networks, and their basic architectures.
-- Project progress update.
+### October 9th: **Midterm Exam**
 
-### March 20th: **Deep Learning - Fundamentals**
-- In-depth exploration of feedforward neural networks, activation functions, and backpropagation.
-- Introduction to popular deep learning frameworks.
+### October 16th: **NO CLASS**
 
-### March 27th: **Deep Learning - Extended**
-- Advanced deep learning concepts, including convolutional and recurrent neural networks.
-- Discuss practical applications and challenges in deep learning.
+### October 23rd: **Machine Learning**
+- Regression, Classification, Clustering
+- Automated Machine Learning
+- Cross-Validation and Tuning
 
-### April 3rd: **Flex / Project Update**
-- Flex day for catching up on content, project work, or additional topics as needed.
-- Another project update to ensure progress.
+### October 30th: **Machine Learning**
+- Azure OpenAI Service
+- MLOps and Model Deployment
 
-### April 10th: **Model Deployment / Evaluation**
-- Techniques for deploying machine learning models into production.
-- Evaluation methods to assess model performance in real-world scenarios.
+### November 6th: **Machine Learning**
+- Intro to Deep Learning and Neural Networks
+- Accelerating Training with Distribution and GPUs
+- **Lab:** Machine Learning Lab Due
 
-### April 17th: **Reinforcement Learning / Self-supervised / Unsupervised Learning**
-- Introduction to reinforcement learning and its key concepts.
-- Overview of self-supervised and unsupervised learning methods and their applications.
+### November 13th: **DevOps**
+- Architectural Deployment with Terraform
+- CI/CD Pipelines with GitHub Actions
+- **Lab:** Begin DevOps Lab
 
-### April 24th: **Flex / Final Project Presentation**
-- Flex day for review or additional project work.
-- Final project presentations.
+### November 20th: **Security and Compliance**
+- RBACs, ACLs, and Azure Active Directory (AAD)
+- Compliance Considerations
 
-### May 1st: **Final Exam**
-- Comprehensive final exam covering all course topics.
-  
+### November 27th: **NO CLASS**
+
+### December 4th: **Review**
+- Review Distributed Computing, DevOps, and Security Topics
+- **Lab:** DevOps Lab Due
+
+### December 11th: **Final Exam**
+- Location: Dubois 1101, 5:00pm - 7:30pm
+
 </div>
+
