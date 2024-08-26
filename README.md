@@ -1,5 +1,3 @@
-# 6190_Cloud_Comput_for_DA
-
 <div align="center">
 
 # Cloud Computing for Data Analytics 
