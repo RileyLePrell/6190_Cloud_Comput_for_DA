@@ -1,0 +1,10 @@
+docker build -t riley-sklearn .
+
+docker tag riley-sklearn crdsba6190deveastus001.azurecr.io/riley-sklearn:latest
+
+docker push crdsba6190deveastus001.azurecr.io/riley-sklearn:latest
+
+kubectl apply -f iris_model.yml
+
+
+kubectl exec -it riley-sklearn-01 -- /bin/bash

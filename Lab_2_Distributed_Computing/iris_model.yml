@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rl-sklearn-01
+spec:
+  restartPolicy: Never
+  containers:
+  - name: riley-sklearn
+    image: crdsba6190deveastus001.azurecr.io/riley-sklearn:latest
+    volumeMounts:
+      - name: datalake
+        mountPath: "/mnt/datalake/"
+        readOnly: false
+    # command: ["/bin/bash", "-c"]
+    # args: ["./run.py"]
+    command: [ "/bin/bash", "-c", "--" ]
+    args: [ "while true; do sleep 30; done;" ]
+    # resources:
+    #   limits:
+    #     memory: "2Gi"
+    #     cpu: "200m"
+  imagePullSecrets:
+    - name: acr-secret
+  volumes:
+    - name: datalake
+      persistentVolumeClaim:
+        claimName: pvc-datalake-class-blob
+        
